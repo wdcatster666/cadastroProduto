@@ -1,0 +1,75 @@
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Controle de Produtos</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="caixa">
+
+            <!--Cadastro de Produtos-->
+
+            <h2><b>Cadastro de Produto 📦​</b></h2>
+            <hr>
+
+            <!-- Formulário de cadastro de Produto -->
+
+            <form class="formulario" name="frm_produtos" method="POST" action="cadastrar.php">
+                <div class="alinhamento">
+                
+                <div class="campo">
+                <label>Descrição</label>
+                <input type="text" name="txt_produto">
+                </div>
+
+                <div class="campo">
+                <label>Categoria</label>
+                <select name="txt_tipo">
+                    <option>Eletrodomésticos</option>
+                    <option>Informática</option>
+                    <option>Móveis</option>
+                    <option>Utilitários</option>
+                </select>
+                </div>
+
+                <div class="campo">
+                <label>Valor Compra (R$)</label>
+                <input type="text" name="txt_vcompra">
+                </div>
+
+                <div class="campo">
+                <label>Valor Venda (R$)</label>
+                <input type="text" name="txt_vvenda">
+                </div>
+
+                <div class="campo">
+                <label>Qtd. Estoque</label>
+                <input type="number" name="txt_qtd_estoque">
+                </div>
+
+                </div>
+                <br>
+
+                <div>
+                    <button type="submit" class="botao">CADASTRAR PRODUTO</button>
+                    <button type="button" class="botao">VENDER PRODUTO</button>
+                </div>
+
+            </form>
+
+            <!--Busca de Produtos-->
+
+            <h2><b>Busca de Produtos 🔍​​</b></h2>
+            <hr>
+
+            <form class="formulario" name="frm_filtrar" method="POST" action="listagem.php">
+            <label>Nome do Produto:</label> 
+            <input type="text" name="busca_nome">
+            <button type="submit" class="botao-lupa">
+                <img src="lupa.png" height="30px" width="30px">
+            </button>
+            </form>
+
+        </div>
+    </body>
+</html>

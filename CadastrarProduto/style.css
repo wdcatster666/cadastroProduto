@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(44, 44, 44);
+    font-weight: bold;
+    margin: 40px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: rgb(30, 90, 255);
+    margin: 20px 0;
+}
+
+.caixa {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #a0a0a0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.formulario {    
+    font-size: 15px;
+}
+
+.formulario input, select {
+    height: 30px;
+    width: 300px;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #a0a0a0;
+    border-radius: 6px;
+}
+
+.alinhamento {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.botao {
+    padding: 10px 50px;
+    margin-top: 15px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    background-color: rgb(41, 98, 255);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-color: rgb(30, 90, 255);
+    border-radius: 6px;
+    width: max-content;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: rgb(30, 90, 255);    
+}
+
+.botao-lupa {
+    background-color: rgb(41, 98, 255);
+    border: 1px solid rgb(30, 90, 255);
+    border-radius: 6px;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.botao-lupa img {
+    height: 20px;
+    width: 20px;
+}
+
+.caixa-sistema {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #a0a0a0;
+}
+
+.titulo-mensagem {
+    background-color: white;
+    color: rgb(30, 90, 255);
+    font-weight: bold;
+}
+
+.mensagem-sistema {
+    background-color: white;
+    color: rgb(44, 44, 44);
+    margin: 10%;
+}
+
+.tabela {
+    width: 100%;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 1px solid rgb(30, 90, 255);
+    font-weight: bold;
+    background-color: white;
+    color: rgb(30, 90, 255);
+}
+
+.titulo-tabela {
+    padding: 10px;
+    background-color: white;
+    color: rgb(30, 90, 255);
+    font-size: 24px;    
+}
+
+.colunas {
+    background-color: rgb(45, 135, 253);
+    color: white;
+    height: 32px;
+}
+
+.registros {
+    padding: 8px;
+    background-color: white;
+    color: rgb(30, 90, 255);
+    text-align: center;
+}
+
+.botao-voltar{
+    padding: 12px 30px;
+    margin-bottom: 25px;
+    background-color: rgb(41, 98, 255);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-color: rgb(30, 90, 255);
+    border-radius: 6px;
+    width: max-content;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.botao-voltar-inicio {
+    padding: 12px 30px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-color: rgb(41, 98, 255);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-color: rgb(30, 90, 255);
+    border-radius: 6px;
+    width: max-content;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.formulario-listagem { 
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.formulario-listagem input, select {
+    height: 30px;
+    width: 300px;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #a0a0a0;
+    border-radius: 6px;
+}
